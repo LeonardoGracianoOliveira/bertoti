@@ -1,3 +1,5 @@
+Exercicios 1,2 e 3 - Comentarios e tradeoff
+
 Comentário – Trecho 1:
 O texto diferencia engenharia de software de programação e ciência da computação, destacando que o termo “engenharia” carrega a ideia de aplicação sistemática de conhecimentos teóricos para construir algo real, assim como em outras áreas da engenharia. Apesar de criar produtos menos tangíveis, a engenharia de software precisa adotar práticas mais rigorosas, já que o software está cada vez mais presente em aspectos críticos da vida cotidiana. O trecho também aponta que, historicamente, a programação não exigia padrões tão rigorosos, mas essa realidade precisa mudar para garantir confiabilidade.
 
@@ -19,4 +21,5 @@ Impacto: Lançamento rápido vs. risco de bugs e necessidade de retrabalho.
 
 Flexibilidade vs. Custo de Implementação
 Descrição: Criar um sistema altamente flexível para suportar muitos cenários futuros aumenta o custo e a complexidade inicial. Desenvolver algo mais simples reduz custos, mas pode dificultar adaptações depois.
+
 Impacto: Investimento inicial alto para evitar mudanças futuras vs. custo menor agora com possíveis gastos maiores no futuro.
