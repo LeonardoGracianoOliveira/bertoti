@@ -15,7 +15,7 @@ O projeto demonstra como integrar banco de dados SQLite a uma aplicação Java, 
 ✅ Exemplo funcional de integração com o banco na classe Main.
 
 📂 Estrutura do Projeto
-Biblioteca/
+<code> Biblioteca/
  ├── src/main/java/org/example/biblioteca/
  │    ├── dao/
  │    │    ├── BibliotecaDao.java
@@ -33,6 +33,7 @@ Biblioteca/
  ├── pom.xml
  ├── biblioteca.db  ← criado automaticamente
  └── README.md
+<\code>
 
 🧠 Tecnologias
 
