@@ -1,19 +1,19 @@
 <h1> 📚 Sistema de Biblioteca (Java + SQLite) <\h1>
-🧾 Descrição
+<h2>🧾 Descrição <\h2>
 
-Aplicação em Java puro, estruturada em camadas (Model, DAO, Database, Main), com persistência de dados em SQLite.
+<p>Aplicação em Java puro, estruturada em camadas (Model, DAO, Database, Main), com persistência de dados em SQLite.
 O sistema realiza operações completas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar Usuários, Bibliotecas, Livros e Testes.
-O projeto demonstra como integrar banco de dados SQLite a uma aplicação Java, utilizando o padrão DAO e gerenciamento de conexões JDBC.
+O projeto demonstra como integrar banco de dados SQLite a uma aplicação Java, utilizando o padrão DAO e gerenciamento de conexões JDBC.<\p>
 
 <h2>⚙️ Funcionalidades<\h2>
 
-✅ Criação automática do banco de dados e tabelas.
-✅ Inserção, atualização, deleção e listagem de registros.
-✅ Uso de PreparedStatement para segurança contra SQL Injection.
-✅ Estrutura modular e escalável.
-✅ Exemplo funcional de integração com o banco na classe Main.
+<ul>✅ Criação automática do banco de dados e tabelas.<\ul>
+<ul>✅ Inserção, atualização, deleção e listagem de registros.<\ul>
+<ul>✅ Uso de PreparedStatement para segurança contra SQL Injection.<\ul>
+<ul>✅ Estrutura modular e escalável.<\ul>
+<ul>✅ Exemplo funcional de integração com o banco na classe Main.<\ul>
 
-📂 Estrutura do Projeto
+<h2>📂 Estrutura do Projeto<\h2>
 <code> 
 Biblioteca/
  ├── src/main/java/org/example/biblioteca/
