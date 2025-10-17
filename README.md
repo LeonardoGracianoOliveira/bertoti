@@ -1,5 +1,5 @@
 <h1> 📚 Sistema de Biblioteca (Java + SQLite) </h1>
-<h2>🧾 Descrição <\h2>
+<h2>🧾 Descrição</h2>
 
 <p>Aplicação em Java puro, estruturada em camadas (Model, DAO, Database, Main), com persistência de dados em SQLite.
 O sistema realiza operações completas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar Usuários, Bibliotecas, Livros e Testes.
