@@ -8,7 +8,7 @@ O projeto demonstra como integrar banco de dados SQLite a uma aplicação Java, 
 <h2>⚙️ Funcionalidades</h2>
 
 <ul>
- <li>✅ Criação automática do banco de dados e tabelas.</li>
+<li>✅ Criação automática do banco de dados e tabelas.</li>
 <li>✅ Inserção, atualização, deleção e listagem de registros.</li>
 <li>✅ Uso de PreparedStatement para segurança contra SQL Injection.</li>
 <li>✅ Estrutura modular e escalável.</li>
@@ -35,81 +35,69 @@ Biblioteca/
  ├── pom.xml
  ├── biblioteca.db  ← criado automaticamente
  └── README.md
-<\code>
+</code>
 
-🧠 Tecnologias
+<h2>🧠 Tecnologias</h2>
 
-Java 17+
+<p>Java 17+</p>
+<p>SQLite</p>
+<p>Maven (para gerenciar dependências)</p>
+<p>JDBC</p>
 
-SQLite
-
-Maven (para gerenciar dependências)
-
-JDBC
-
-🧩 Dependência Maven
+<ha2>🧩 Dependência Maven</h2>
+<code>
 <dependency>
     <groupId>org.xerial</groupId>
     <artifactId>sqlite-jdbc</artifactId>
     <version>3.44.0.0</version>
 </dependency>
+</code>
 
-🚀 Como Executar
+<h2>🚀 Como Executar</h2>
 
-Verifique se o Maven está instalado:
+<h3>Verifique se o Maven está instalado:</h3>
+<p>mvn -v</p>
 
-mvn -v
+<h3>Compile o projeto:</h3>
+<p>mvn clean compile</p>
 
+<h3>Execute a classe principal:</h3>
+<p>mvn exec:java -Dexec.mainClass="org.example.biblioteca.Main"</p>mvn exec:java -Dexec.mainClass="org.example.biblioteca.Main"
 
-Compile o projeto:
+<h3>O programa irá:</h3>
+<p>Criar o arquivo biblioteca.db</p>
+<p>Criar as tabelas automaticamente</p>
+<p>Inserir e listar registros de exemplo no banco</p>
 
-mvn clean compile
+<h2>🧩 Exemplo de Saída</h2>
+<p>Tabelas verificadas/criadas.</p>
+<p>Usuario id em uso: 1 -> org.example.biblioteca.model.Usuario@1ff8b8f</p>
+<p>Biblioteca criada id: 2 -> org.example.biblioteca.model.Biblioteca@64c64813</p>
+<p>Livro criado id: 1 -> org.example.biblioteca.model.Livro@483bf400</p>
+<p>Livros no DB:</p>
+<p>org.example.biblioteca.model.Livro@326de728</p>
+<p>Atualizado? true -> org.example.biblioteca.model.Livro@25618e91</p>
+<p>Teste criado id: 1 -> org.example.biblioteca.model.Teste@2cfb4a64</p>
 
+<h2>👤 Autor</h2>
+<p>Desenvolvido por Leonardo Oliveira</p>
+<p>📅 Projeto acadêmico para prática de integração Java + SQLite.</p>
 
-Execute a classe principal:
+<h1>🤖 Cliente Java para Ollama (IA Local)</h1>
+<h2>🧾 Descrição</h2>
 
-mvn exec:java -Dexec.mainClass="org.example.biblioteca.Main"
+<p>Projeto em Java que se conecta ao servidor local do Ollama, permitindo enviar perguntas e receber respostas diretamente de modelos de linguagem (LLMs) como llama3, mistral, gemma, etc.</p>
+<p>Demonstra como integrar Java com APIs HTTP e manipular requisições JSON para interação com uma IA local, sem depender de serviços externos.</p>
 
+<h2>⚙️ Funcionalidades</h2>
 
-O programa irá:
+<p>✅ Conexão HTTP direta com o servidor Ollama.</p>
+<p>✅ Envio de perguntas para o modelo de linguagem.</p>
+<p>✅ Recebimento e exibição da resposta no terminal.</p>
+<p>✅ Estrutura modular com classes separadas para Cliente e Modelo.</p>
 
-Criar o arquivo biblioteca.db
-
-Criar as tabelas automaticamente
-
-Inserir e listar registros de exemplo no banco
-
-🧩 Exemplo de Saída
-Tabelas verificadas/criadas.
-Usuario id em uso: 1 -> org.example.biblioteca.model.Usuario@1ff8b8f
-Biblioteca criada id: 2 -> org.example.biblioteca.model.Biblioteca@64c64813
-Livro criado id: 1 -> org.example.biblioteca.model.Livro@483bf400
-Livros no DB:
-org.example.biblioteca.model.Livro@326de728
-Atualizado? true -> org.example.biblioteca.model.Livro@25618e91
-Teste criado id: 1 -> org.example.biblioteca.model.Teste@2cfb4a64
-
-👤 Autor
-
-Desenvolvido por Leonardo Oliveira
-📅 Projeto acadêmico para prática de integração Java + SQLite.
-
-🤖 Ollama/README.md
-🤖 Cliente Java para Ollama (IA Local)
-🧾 Descrição
-
-Projeto em Java que se conecta ao servidor local do Ollama, permitindo enviar perguntas e receber respostas diretamente de modelos de linguagem (LLMs) como llama3, mistral, gemma, etc.
-
-Demonstra como integrar Java com APIs HTTP e manipular requisições JSON para interação com uma IA local, sem depender de serviços externos.
-
-⚙️ Funcionalidades
-
-✅ Conexão HTTP direta com o servidor Ollama.
-✅ Envio de perguntas para o modelo de linguagem.
-✅ Recebimento e exibição da resposta no terminal.
-✅ Estrutura modular com classes separadas para Cliente e Modelo.
-
-📂 Estrutura do Projeto
+<h2>📂 Estrutura do Projeto</h2>
+<code>
 Ollama/
  ├── src/main/java/org/example/ollama/
  │    ├── client/
@@ -119,127 +107,39 @@ Ollama/
  │    └── MainApp.java
  ├── pom.xml
  └── README.md
+</code>
 
-🧠 Tecnologias
+<h2>🧠 Tecnologias</h2>
+<p>Java 17+</p>
+<p>HTTP Client (java.net.http)</p>
+<p>JSON (org.json ou Jackson)</p>
+<p>Ollama (servidor local de IA)</p>
 
-Java 17+
+<h2>⚙️ Requisitos</h2>
+<p>Instalar o Ollama:</p>
+<p>👉 https://ollama.com/download</p>
+<p>Baixar um modelo (exemplo): ollama pull llama3</p>
+<p>Iniciar o servidor: ollama serve</p>
 
-HTTP Client (java.net.http)
+<h2>🚀 Como Executar</h2>
+<h3>Compile o projeto:</h3>
+<p>>mvn clean compile</p>
 
-JSON (org.json ou Jackson)
+<h3>Execute:</h3>h
+<p>mvn exec:java -Dexec.mainClass="org.example.ollama.MainApp"</p>
 
-Ollama (servidor local de IA)
+<h3>O terminal solicitará uma pergunta:</h3>
+<p>Digite sua pergunta: Qual é a capital do Brasil?</p>
 
-⚙️ Requisitos
+<h3>A IA responderá:</h3>
+<p>Resposta: Brasília.</p>
 
-Instalar o Ollama:
-👉 https://ollama.com/download
+<h2>🔧 Exemplo de Código</h2>
+<p>String model = "llama3";</p>
+<p>String pergunta = "Explique o que é Java em 1 linha.";</p>
+<p>String resposta = client.chat(model, List.of(new ChatMessage("user", pergunta)));</p>
+<p>System.out.println("Resposta: " + resposta);</p>
 
-Baixar um modelo (exemplo):
-
-ollama pull llama3
-
-
-Iniciar o servidor:
-
-ollama serve
-
-🚀 Como Executar
-
-Compile o projeto:
-
-mvn clean compile
-
-
-Execute:
-
-mvn exec:java -Dexec.mainClass="org.example.ollama.MainApp"
-
-
-O terminal solicitará uma pergunta:
-
-Digite sua pergunta: Qual é a capital do Brasil?
-
-
-A IA responderá:
-
-Resposta: Brasília.
-
-🔧 Exemplo de Código
-String model = "llama3";
-String pergunta = "Explique o que é Java em 1 linha.";
-String resposta = client.chat(model, List.of(new ChatMessage("user", pergunta)));
-System.out.println("Resposta: " + resposta);
-
-👤 Autor
-
-Desenvolvido por Leonardo Oliveira
-🤝 Integração de IA Local + Java HTTP API
-
-🎲 Sistema Universal de RPG
-📖 Descrição
-
-Este projeto documenta a criação de um sistema universal de RPG, projetado para funcionar em qualquer ambientação — fantasia medieval, futurista, moderna ou pós-apocalíptica.
-O sistema combina simplicidade mecânica com alta personalização.
-
-⚙️ Estrutura do Sistema
-
-Atributos: Físico, Agilidade, Mente, Social e Essência.
-
-Perícias: Habilidades associadas a atributos (níveis de 0 a 5).
-
-Recursos:
-
-Vida = 8 + Físico
-
-Stamina = 1 + Essência
-
-Sanidade = Essência
-
-Mana = 1 + Mente
-
-Progressão: Níveis de 1 a 20, com 20 XP por nível para evoluir.
-
-Economia: Sistema de Poder de Compra (PdC) em níveis.
-
-Magia: Baseada em círculos (1 a 5), consumo de Mana e aprimoramentos.
-
-Habilidades: Gerais, de Classe, Benefícios e Complicações.
-
-📂 Estrutura de Documentos
-RPG/
- ├── docs/
- │    ├── Atributos.md
- │    ├── Pericias.md
- │    ├── Niveis_e_Progressao.md
- │    ├── Sistema_de_Magia.md
- │    ├── Equipamentos.md
- │    ├── Beneficios_e_Complicacoes.md
- │    ├── Poder_de_Compra.md
- │    ├── Origens.md
- │    └── Arquitetura_do_Sistema.md
- ├── LICENSE
- └── README.md
-
-🎯 Objetivos do Projeto
-
-Criar uma base universal para qualquer tipo de RPG.
-
-Oferecer mecânicas equilibradas e fáceis de adaptar.
-
-Disponibilizar expansões temáticas (ex: Fantasia, Cyberpunk, Horror).
-
-🧠 Conceitos-Chave
-
-Origens: ponto de partida dos personagens, com bônus e poderes.
-
-Sanidade: sistema leve para lidar com traumas e insanidade.
-
-Encantamentos: aplicáveis em itens por meio de perícia Arcanismo.
-
-Progressão narrativa: via XP, marcos ou decisão do mestre.
-
-👤 Autor
-
-Desenvolvido por Leonardo Oliveira
-📚 Projeto em andamento — criação completa do Capítulo 1: Criação de Personagem concluída.
+<h2>👤 Autor</h2>
+<p>Desenvolvido por Leonardo Oliveira</p>
+<p>🤝 Integração de IA Local + Java HTTP API</p>
