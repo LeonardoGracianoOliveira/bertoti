@@ -36,3 +36,64 @@
 
 <h3>Exemplo prático:</h3>
 <p>Imagine uma startup desenvolvendo um aplicativo de entregas. Se ela optar por um design de software altamente escalável e modular (para suportar expansão nacional), o custo e o tempo de desenvolvimento aumentarão. Por outro lado, se escolher uma arquitetura mais simples para lançar rapidamente na cidade local, economiza recursos e entra no mercado mais cedo — mas, ao crescer, precisará reescrever boa parte do sistema. Essa decisão representa um claro trade-off entre velocidade de entrega e escalabilidade futura.</p>
+
+<h2>Sistema de RPG (Java)</h2>
+<h3>🧾 Descrição</h3>🧾 Descrição
+<p>Aplicação em Java puro, estruturada em camadas (Model e Main), simulando um sistema de RPG de mesa básico. O sistema demonstra a criação e gerenciamento de Arquétipos (classes de personagem), contendo atributos como nome, nível mínimo, custo e descrição. O projeto foca em representar conceitos fundamentais de orientação a objetos, como encapsulamento, construtores, instâncias e relacionamentos entre classes.</p>
+
+<h3>⚙️ Funcionalidades</h3>
+<ul>
+  <li>✅ Criação e instância de objetos da classe Arquetipo.</li>
+  <li>✅ Exemplo funcional de inicialização de personagens no Main.</li>
+  <li>✅ Impressão de dados no console com informações completas do arquétipo.</li>
+  <li>✅ Estrutura modular e de fácil expansão para futuras implementações (como atributos, perícias, origem etc).</li>
+  <li>✅ Código totalmente orientado a objetos, seguindo boas práticas de encapsulamento.</li>
+</ul>
+
+<h3>📂 Estrutura do Projeto</h3>
+<code>
+  MesaRPG/
+├── src/main/java/org/example/rpg/
+│ ├── Arquetipo.java
+  ├── Jogador.java
+  ├── Personagem.java
+  ├── Campanha.java
+  ├── CampanhaTest.java
+  ├── ArquetipoRepository.java
+  └── Main.java
+</code>
+
+<h3>🧠 Tecnologias</h3>
+<p>Java 17+</p>
+<p>Maven (para gerenciamento do projeto e build)</p>
+
+<h3>🚀 Como Executar</h3>
+<p>Verifique se o Maven está instalado: mvn -v</p>
+
+Compile o projeto:
+mvn clean compile
+
+Execute a classe principal:
+mvn exec:java -Dexec.mainClass="org.example.rpg.Main"
+
+O programa irá:
+
+Criar objetos da classe Arquetipo.
+
+Exibir as informações de cada arquétipo no console.
+
+🧩 Exemplo de Saída
+Arquetipo: Guerreiro
+Nível Mínimo: 1
+Custo: 5
+Descrição: Combatente experiente, treinado no uso de armas e armaduras.
+
+Arquetipo: Mago
+Nível Mínimo: 1
+Custo: 5
+Descrição: Usuário de magia que canaliza poder através da mente e essência.
+
+👤 Autor
+Desenvolvido por Leonardo Oliveira
+
+📅 Projeto acadêmico para prática de modelagem e orientação a objetos em Java.
