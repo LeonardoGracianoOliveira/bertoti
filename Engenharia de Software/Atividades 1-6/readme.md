@@ -37,63 +37,103 @@
 <h3>Exemplo prático:</h3>
 <p>Imagine uma startup desenvolvendo um aplicativo de entregas. Se ela optar por um design de software altamente escalável e modular (para suportar expansão nacional), o custo e o tempo de desenvolvimento aumentarão. Por outro lado, se escolher uma arquitetura mais simples para lançar rapidamente na cidade local, economiza recursos e entra no mercado mais cedo — mas, ao crescer, precisará reescrever boa parte do sistema. Essa decisão representa um claro trade-off entre velocidade de entrega e escalabilidade futura.</p>
 
-<h2>Sistema de RPG (Java)</h2>
-<h3>🧾 Descrição</h3>🧾 Descrição
-<p>Aplicação em Java puro, estruturada em camadas (Model e Main), simulando um sistema de RPG de mesa básico. O sistema demonstra a criação e gerenciamento de Arquétipos (classes de personagem), contendo atributos como nome, nível mínimo, custo e descrição. O projeto foca em representar conceitos fundamentais de orientação a objetos, como encapsulamento, construtores, instâncias e relacionamentos entre classes.</p>
+<h2>🎲 Sistema de Campanha de RPG (Java)</h2>
 
-<h3>⚙️ Funcionalidades</h3>
-<ul>
-  <li>✅ Criação e instância de objetos da classe Arquetipo.</li>
-  <li>✅ Exemplo funcional de inicialização de personagens no Main.</li>
-  <li>✅ Impressão de dados no console com informações completas do arquétipo.</li>
-  <li>✅ Estrutura modular e de fácil expansão para futuras implementações (como atributos, perícias, origem etc).</li>
-  <li>✅ Código totalmente orientado a objetos, seguindo boas práticas de encapsulamento.</li>
-</ul>
+<h3>🧾 Descrição</h3>
+<p>Aplicação em Java puro, estruturada em camadas, representando um sistema simples de gerenciamento de campanhas de RPG.
+O projeto foi desenvolvido com base em um diagrama UML completo, contendo as entidades Campanha, Jogador, Personagem e Arquetipo, e suas relações.</p>
 
-<h3>📂 Estrutura do Projeto</h3>
+<p>O sistema permite criar campanhas com múltiplos jogadores, associar personagens e arquétipos aos jogadores, buscar jogadores e personagens por nome e realizar testes automatizados com JUnit 5.</p>
+
+<h3>🏗️ Estrutura do Projeto</h3>
 <code>
-  MesaRPG/
-├── src/main/java/org/example/rpg/
+src/
+├── model/
+│ ├── Campanha.java
+│ ├── Jogador.java
+│ ├── Personagem.java
 │ ├── Arquetipo.java
-  ├── Jogador.java
-  ├── Personagem.java
-  ├── Campanha.java
-  ├── CampanhaTest.java
-  ├── ArquetipoRepository.java
-  └── Main.java
+│ └── Main.java
+└── test/
+└── CampanhaTest.java
 </code>
 
-<h3>🧠 Tecnologias</h3>
-<p>Java 17+</p>
-<p>Maven (para gerenciamento do projeto e build)</p>
+<h3>⚙️ Funcionalidades Principais</h3>
+<p>Campanha: gerencia a sessão e os jogadores. Permite buscar personagens e jogadores pelo nome.</p>
+<p>Jogador: representa um participante da campanha, contendo função, nome, idade e personagens associados.</p>
+<p>Personagem: define as informações do personagem, como nome, origem e aparência, e permite atribuir um arquétipo.</p>
+<p>Arquetipo: representa a classe ou especialização do personagem, com pontos de vida, mana e uma descrição.</p>
+<p>Main: executa o sistema e exibe as informações no console.
 
-<h3>🚀 Como Executar</h3>
-<p>Verifique se o Maven está instalado: mvn -v</p>
+<h3>🚀 Como Executar o Projeto</h3>
+<h4>Opção 1 — Linha de Comando:</h4>
+<p>Compile os arquivos Java com o comando:</p>
+<p>javac model/*.java</p>
 
-Compile o projeto:
-mvn clean compile
+<h4>Execute o programa principal:</h4>
+<p>java model.Main</p>
 
-Execute a classe principal:
-mvn exec:java -Dexec.mainClass="org.example.rpg.Main"
+<h4>Opção 2 — IntelliJ / Eclipse / VS Code:</h4>
+<p>Crie um novo projeto Java.</p>
+<p>Copie as pastas “model” e “test” para dentro da pasta “src”.</p>
+<p>Execute a classe Main.java com o botão “Run”.</p>
 
-O programa irá:
+<h3>🧪 Testes Automatizados (JUnit 5)</h3>
+<p>Os testes estão localizados em “src/test/CampanhaTest.java”.</p>
+<p>Para executá-los, basta rodar os testes diretamente pela IDE (como IntelliJ ou Eclipse) ou, se o projeto usar Maven ou Gradle, executar:</p>
+<code>
+  mvn test
+ou
+gradle test
+</code>
 
-Criar objetos da classe Arquetipo.
+<h3>📊 Exemplo de Saída</h3>
 
-Exibir as informações de cada arquétipo no console.
+<code>
+  === CAMPANHA ===
+Nome: Sombras do Abismo
+Sessão: 1
+Jogadores:
 
-🧩 Exemplo de Saída
+Jogador: Leonardo
+Função: Mestre
+Idade: 28
+Personagem: Darian
+Origem: Reino do Norte
+Aparência: Cabelos brancos
 Arquetipo: Guerreiro
-Nível Mínimo: 1
-Custo: 5
-Descrição: Combatente experiente, treinado no uso de armas e armaduras.
+Vida: 100
+Mana: 20
+Descrição: Especialista em combate corpo a corpo
 
-Arquetipo: Mago
-Nível Mínimo: 1
-Custo: 5
-Descrição: Usuário de magia que canaliza poder através da mente e essência.
+Jogador: Carla
+Função: Jogador
+Idade: 25
+Personagem: Lyra
+Origem: Floresta Élfica
+Aparência: Olhos verdes
+Arquetipo: Maga
+Vida: 60
+Mana: 100
+Descrição: Usuária de magia ancestral
 
-👤 Autor
-Desenvolvido por Leonardo Oliveira
+=== TESTES DE BUSCA ===
 
-📅 Projeto acadêmico para prática de modelagem e orientação a objetos em Java.
+Buscando jogador 'Carla':
+Encontrado: Carla (Jogador), Idade: 25
+
+Buscando personagem 'Darian':
+Encontrado: Darian | Origem: Reino do Norte | Aparência: Cabelos brancos | Arquetipo: Guerreiro (Vida: 100, Mana: 20)
+
+--- Execução concluída com sucesso ---
+</code>
+
+<h3>🧠 Tecnologias Utilizadas</h3>
+<p>Java 17+</p>
+<p>JUnit 5</p>
+<p>Programação Orientada a Objetos (POO)</p>
+<p>Modelagem UML</p>
+
+<h3>👨‍💻 Autor</h3>
+<p>Leonardo Oliveira</p>
+<p>Projeto desenvolvido para estudo e demonstração de arquitetura orientada a objetos em Java.</p>
