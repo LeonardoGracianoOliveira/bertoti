@@ -72,14 +72,28 @@ O sistema oferece funcionalidades abrangentes, incluindo: rastreamento de custos
 - Slack: Empregado como canal oficial de comunicação da equipe, viabilizando a troca de mensagens rápidas, integração de notificações e alinhamento do fluxo de trabalho.
 - Discord: Utilizado para reuniões síncronas de alinhamento, chamadas de voz e sessões de programação em par (pair programming).
 
-## Contribuições Pessoais:
-Durante o ciclo de desenvolvimento deste projeto, atuei no papel de Scrum Master, assumindo a liderança na facilitação dos processos ágeis e na gestão do fluxo de trabalho da equipe. Essa vivência prática proporcionou o aprimoramento e a consolidação de diversas competências técnicas e interpessoais, detalhadas a seguir:
+## Contribuições Pessoais
+Durante o ciclo de desenvolvimento deste projeto, assumi responsabilidades voltadas à gestão do fluxo de trabalho e à governança técnica, garantindo a integração eficiente da equipe e a qualidade das entregas. Minhas principais atividades incluíram:
+
+- Gestão Ágil como Scrum Master: Conduzi o processo de desenvolvimento da equipe facilitando os ritos essenciais do Scrum. Fui responsável por organizar as reuniões de planejamento (Sprint Planning), mediar os alinhamentos diários (Daily Scrum) e conduzir as revisões e retrospectivas, garantindo que o time mantivesse o foco nos objetivos de cada ciclo.
+
+- Governança e Organização do Projeto: Estruturei o ambiente de gestão utilizando a ferramenta Notion. Minha atuação envolveu a criação de quadros visuais (Kanban) para o acompanhamento do Product Backlog e Sprint Backlog, detalhamento das tarefas e monitoramento do status de cada demanda, proporcionando total transparência sobre o progresso do sistema para a equipe.
+
+- Estruturação do Repositório (GitHub): Fui responsável por definir e implementar a arquitetura do repositório de código-fonte. Estabeleci a organização de pastas (separando os ambientes de backend e frontend) e implementei boas práticas de versionamento para evitar conflitos, garantindo a rastreabilidade das alterações e a manutenibilidade do projeto.
+
+## Soft Skills e Hard Skills Desenvolvidas
+A execução das atividades descritas anteriormente exigiu a aplicação prática e proporcionou o aprimoramento de diversas competências, classificadas entre habilidades comportamentais (Soft Skills) e técnicas (Hard Skills):
 
 ### Soft Skills (Competências Comportamentais)
-- Comunicação Interpessoal: Facilitação do fluxo de informações entre os membros da equipe, garantindo o alinhamento contínuo dos objetivos do projeto, a clareza nos requisitos e a eficácia nos repasses de status.
-- Liderança Facilitadora: Condução da equipe por meio da mediação e resolução de conflitos, além da identificação e remoção de impedimentos técnicos ou gerenciais que pudessem atrasar as entregas.
-- Organização e Gestão de Tarefas: Planejamento estratégico das atividades, atuando na priorização do backlog e no acompanhamento do escopo de trabalho para assegurar o cumprimento rigoroso dos prazos acadêmicos estipulados.
+Referem-se às habilidades interpessoais e de autogestão, determinando a forma como o indivíduo interage no ambiente de trabalho, resolve problemas e lida com a equipe.
+
+- Liderança e Comunicação: Estas habilidades foram fundamentais durante minha atuação como Scrum Master. A liderança facilitadora me permitiu identificar e remover impedimentos que travavam os desenvolvedores, enquanto a comunicação clara foi essencial para conduzir as cerimônias ágeis, alinhar requisitos e mediar possíveis conflitos de ideias entre os membros do grupo.
+
+- Organização de Tarefas: Essencial para a gestão do tempo e priorização de demandas. Esta habilidade refletiu-se diretamente na capacidade de planejar estrategicamente as entregas de cada Sprint para cumprir os rigorosos prazos acadêmicos do projeto.
 
 ### Hard Skills (Competências Técnicas)
-- Domínio de Ferramentas de Gestão de Projetos: Implementação e operação de softwares de organização (como o Notion), estruturando quadros visuais de trabalho (Kanban) e centralizando a documentação das Sprints.
-- Gestão de Configuração e Versionamento (GitHub): Estruturação arquitetural do repositório do código-fonte, definindo padrões organizacionais, estruturação de pastas e boas práticas para garantir a manutenibilidade e integridade do projeto no Git.
+Compreendem os conhecimentos técnicos, tangíveis e específicos, geralmente adquiridos por meio de estudo, treinamento e manuseio de ferramentas práticas.
+
+- Ferramentas de Organização de Projetos: O domínio técnico dessas ferramentas materializou-se na operação avançada do Notion. A aplicação dessa habilidade permitiu a tradução de fluxos de trabalho teóricos em quadros Kanban funcionais e na documentação estruturada do projeto.
+
+- Versionamento e Estruturação de Repositórios: Esta competência técnica foi aplicada diretamente na configuração do GitHub. O conhecimento em Git permitiu estabelecer padrões seguros de colaboração, garantindo que múltiplos desenvolvedores pudessem trabalhar simultaneamente no código sem comprometer a integridade do sistema.
