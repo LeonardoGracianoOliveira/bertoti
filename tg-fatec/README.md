@@ -52,34 +52,34 @@ O sistema oferece funcionalidades abrangentes, incluindo: rastreamento de custos
 ---
 
 ### Linguagens & Tecnologias Web
--Java: Utilizado no desenvolvimento do core do sistema e da lógica de negócios no backend, garantindo robustez, orientação a objetos e alto desempenho na execução.
--JavaScript: Empregado no desenvolvimento do frontend para prover interatividade, manipulação dinâmica do DOM e uma experiência de usuário fluida no navegador.
--HTML: Utilizado na estruturação semântica das páginas web, definindo a hierarquia e a organização dos elementos visuais da interface.
--CSS: Aplicado na estilização e formatação visual do sistema, garantindo um design responsivo, padronizado e alinhado aos requisitos de usabilidade.
+- Java: Utilizado no desenvolvimento do core do sistema e da lógica de negócios no backend, garantindo robustez, orientação a objetos e alto desempenho na execução.
+- JavaScript: Empregado no desenvolvimento do frontend para prover interatividade, manipulação dinâmica do DOM e uma experiência de usuário fluida no navegador.
+- HTML: Utilizado na estruturação semântica das páginas web, definindo a hierarquia e a organização dos elementos visuais da interface.
+- CSS: Aplicado na estilização e formatação visual do sistema, garantindo um design responsivo, padronizado e alinhado aos requisitos de usabilidade.
 
 ### Frameworks & Banco de Dados
--Spring Boot: Utilizado para simplificar a criação de microsserviços e APIs RESTful em Java, oferecendo configuração simplificada e alta produtividade no ecossistema do backend.
--MySQL: Empregado como sistema gerenciador de banco de dados relacional (SGBDR) para a modelagem, armazenamento e persistência estruturada dos dados da aplicação.
+- Spring Boot: Utilizado para simplificar a criação de microsserviços e APIs RESTful em Java, oferecendo configuração simplificada e alta produtividade no ecossistema do backend.
+- MySQL: Empregado como sistema gerenciador de banco de dados relacional (SGBDR) para a modelagem, armazenamento e persistência estruturada dos dados da aplicação.
 
 ### Infraestrutura & Ferramentas de Desenvolvimento
--Docker: Utilizado para a conteinerização da aplicação e de suas dependências, garantindo a padronização do ambiente de desenvolvimento e facilitando a implantação (deploy).
--GitHub: Empregado para o versionamento do código-fonte e gestão de repositórios, assegurando o rastreamento de alterações e o histórico do projeto.
--IntelliJ IDEA: Utilizado como ambiente de desenvolvimento integrado (IDE) principal para o código em Java e Spring Boot, otimizando a produtividade por meio de refatoração avançada e depuração.
+- Docker: Utilizado para a conteinerização da aplicação e de suas dependências, garantindo a padronização do ambiente de desenvolvimento e facilitando a implantação (deploy).
+- GitHub: Empregado para o versionamento do código-fonte e gestão de repositórios, assegurando o rastreamento de alterações e o histórico do projeto.
+- IntelliJ IDEA: Utilizado como ambiente de desenvolvimento integrado (IDE) principal para o código em Java e Spring Boot, otimizando a produtividade por meio de refatoração avançada e depuração.
 -VS Code: Empregado como editor de código leve para o desenvolvimento e ajuste de scripts em JavaScript, HTML e CSS.
 
 ### Gestão & Comunicação
--Notion: Utilizado no planejamento e na documentação do projeto, centralizando os requisitos, atas de reuniões e o acompanhamento das atividades da equipe.
--Slack: Empregado como canal oficial de comunicação da equipe, viabilizando a troca de mensagens rápidas, integração de notificações e alinhamento do fluxo de trabalho.
--Discord: Utilizado para reuniões síncronas de alinhamento, chamadas de voz e sessões de programação em par (pair programming).
+- Notion: Utilizado no planejamento e na documentação do projeto, centralizando os requisitos, atas de reuniões e o acompanhamento das atividades da equipe.
+- Slack: Empregado como canal oficial de comunicação da equipe, viabilizando a troca de mensagens rápidas, integração de notificações e alinhamento do fluxo de trabalho.
+- Discord: Utilizado para reuniões síncronas de alinhamento, chamadas de voz e sessões de programação em par (pair programming).
 
 ## Contribuições Pessoais:
 Durante o ciclo de desenvolvimento deste projeto, atuei no papel de Scrum Master, assumindo a liderança na facilitação dos processos ágeis e na gestão do fluxo de trabalho da equipe. Essa vivência prática proporcionou o aprimoramento e a consolidação de diversas competências técnicas e interpessoais, detalhadas a seguir:
 
 ### Soft Skills (Competências Comportamentais)
--Comunicação Interpessoal: Facilitação do fluxo de informações entre os membros da equipe, garantindo o alinhamento contínuo dos objetivos do projeto, a clareza nos requisitos e a eficácia nos repasses de status.
--Liderança Facilitadora: Condução da equipe por meio da mediação e resolução de conflitos, além da identificação e remoção de impedimentos técnicos ou gerenciais que pudessem atrasar as entregas.
--Organização e Gestão de Tarefas: Planejamento estratégico das atividades, atuando na priorização do backlog e no acompanhamento do escopo de trabalho para assegurar o cumprimento rigoroso dos prazos acadêmicos estipulados.
+- Comunicação Interpessoal: Facilitação do fluxo de informações entre os membros da equipe, garantindo o alinhamento contínuo dos objetivos do projeto, a clareza nos requisitos e a eficácia nos repasses de status.
+- Liderança Facilitadora: Condução da equipe por meio da mediação e resolução de conflitos, além da identificação e remoção de impedimentos técnicos ou gerenciais que pudessem atrasar as entregas.
+- Organização e Gestão de Tarefas: Planejamento estratégico das atividades, atuando na priorização do backlog e no acompanhamento do escopo de trabalho para assegurar o cumprimento rigoroso dos prazos acadêmicos estipulados.
 
 ### Hard Skills (Competências Técnicas)
--Domínio de Ferramentas de Gestão de Projetos: Implementação e operação de softwares de organização (como o Notion), estruturando quadros visuais de trabalho (Kanban) e centralizando a documentação das Sprints.
--Gestão de Configuração e Versionamento (GitHub): Estruturação arquitetural do repositório do código-fonte, definindo padrões organizacionais, estruturação de pastas e boas práticas para garantir a manutenibilidade e integridade do projeto no Git.
+- Domínio de Ferramentas de Gestão de Projetos: Implementação e operação de softwares de organização (como o Notion), estruturando quadros visuais de trabalho (Kanban) e centralizando a documentação das Sprints.
+- Gestão de Configuração e Versionamento (GitHub): Estruturação arquitetural do repositório do código-fonte, definindo padrões organizacionais, estruturação de pastas e boas práticas para garantir a manutenibilidade e integridade do projeto no Git.
