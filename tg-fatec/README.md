@@ -72,28 +72,28 @@ O sistema oferece funcionalidades abrangentes, incluindo: rastreamento de custos
 - Slack: Empregado como canal oficial de comunicação da equipe, viabilizando a troca de mensagens rápidas, integração de notificações e alinhamento do fluxo de trabalho.
 - Discord: Utilizado para reuniões síncronas de alinhamento, chamadas de voz e sessões de programação em par (pair programming).
 
-## Contribuições Pessoais
-Durante o ciclo de desenvolvimento deste projeto, assumi responsabilidades voltadas à gestão do fluxo de trabalho e à governança técnica, garantindo a integração eficiente da equipe e a qualidade das entregas. Minhas principais atividades incluíram:
+<details>
+<summary><b>Contribuições Pessoais</b></summary>
 
-- Gestão Ágil como Scrum Master: Conduzi o processo de desenvolvimento da equipe facilitando os ritos essenciais do Scrum. Fui responsável por organizar as reuniões de planejamento (Sprint Planning), mediar os alinhamentos diários (Daily Scrum) e conduzir as revisões e retrospectivas, garantindo que o time mantivesse o foco nos objetivos de cada ciclo.
+Durante o ciclo de desenvolvimento deste projeto, assumi responsabilidades voltadas à gestão ágil do fluxo de trabalho e à governança técnica, garantindo a integração eficiente da equipe e a qualidade das entregas. Minhas principais atividades incluíram:
 
-- Governança e Organização do Projeto: Estruturei o ambiente de gestão utilizando a ferramenta Notion. Minha atuação envolveu a criação de quadros visuais (Kanban) para o acompanhamento do Product Backlog e Sprint Backlog, detalhamento das tarefas e monitoramento do status de cada demanda, proporcionando total transparência sobre o progresso do sistema para a equipe.
+* **Comunicação e Coordenação de Equipe (Discord):** Utilizando o Discord como canal oficial, conduzi reuniões periódicas de alinhamento. Nessas interações, realizei o acompanhamento do desenvolvimento, mapeando as tarefas concluídas e as pendentes. Atuei ativamente na coordenação do time, direcionando o foco dos desenvolvedores para as demandas de maior prioridade e garantindo o cumprimento das metas estabelecidas para cada entrega.
+* **Planejamento e Detalhamento de Tarefas (Notion):** Fui responsável por estruturar e gerenciar o fluxo de trabalho através do Notion. Desmembrei e cataloguei todas as tarefas do projeto, elaborando descrições minuciosas para cada uma. Esse detalhamento incluiu a definição clara do objetivo da tarefa, os requisitos do que precisava ser feito e as diretrizes técnicas de como executá-la, eliminando ambiguidades para a equipe de desenvolvimento.
+* **Apresentação de Resultados ao Cliente (Canva):** Utilizando o Canva, desenvolvi materiais visuais e apresentações (slides) direcionadas às cerimônias de *Sprint Review*. Esse material foi essencial para traduzir o progresso técnico do software em demonstrações claras e profissionais das funcionalidades concluídas, facilitando a validação e o entendimento por parte do cliente.
+* **Governança do Repositório (GitHub):** Liderei a estruturação do repositório do projeto, definindo a arquitetura de pastas (separando os ambientes) e estabelecendo boas práticas de versionamento para garantir a integridade do código e evitar conflitos durante a integração contínua.
 
-- Estruturação do Repositório (GitHub): Fui responsável por definir e implementar a arquitetura do repositório de código-fonte. Estabeleci a organização de pastas (separando os ambientes de backend e frontend) e implementei boas práticas de versionamento para evitar conflitos, garantindo a rastreabilidade das alterações e a manutenibilidade do projeto.
+### Soft Skills e Hard Skills Desenvolvidas
 
-## Soft Skills e Hard Skills Desenvolvidas
-A execução das atividades descritas anteriormente exigiu a aplicação prática e proporcionou o aprimoramento de diversas competências, classificadas entre habilidades comportamentais (Soft Skills) e técnicas (Hard Skills):
+A execução das atividades descritas exigiu a aplicação prática e proporcionou o aprimoramento de diversas competências:
 
-### Soft Skills (Competências Comportamentais)
-Referem-se às habilidades interpessoais e de autogestão, determinando a forma como o indivíduo interage no ambiente de trabalho, resolve problemas e lida com a equipe.
+**Soft Skills (Competências Comportamentais)**
+Referem-se às habilidades interpessoais e de autogestão, determinando a forma como interajo, resolvo problemas e conduzo a equipe. 
+* **Liderança e Comunicação:** Exercitadas diariamente na condução das reuniões via Discord, onde foi essencial alinhar expectativas, focar a equipe nas prioridades corretas e apresentar os resultados de forma clara para o cliente durante as *Sprint Reviews*.
+* **Organização de Tarefas:** Habilidade crucial para desmembrar problemas complexos em atividades menores e executáveis, garantindo que o escopo do projeto fluísse de maneira ordenada e dentro dos prazos acadêmicos.
 
-- Liderança e Comunicação: Estas habilidades foram fundamentais durante minha atuação como Scrum Master. A liderança facilitadora me permitiu identificar e remover impedimentos que travavam os desenvolvedores, enquanto a comunicação clara foi essencial para conduzir as cerimônias ágeis, alinhar requisitos e mediar possíveis conflitos de ideias entre os membros do grupo.
+**Hard Skills (Competências Técnicas)**
+Compreendem os conhecimentos técnicos e tangíveis adquiridos por meio do manuseio de metodologias e ferramentas práticas.
+* **Ferramentas de Gestão e Design:** O domínio prático materializou-se na operação do Notion (para construção e documentação do *Kanban* e detalhamento de requisitos) e do Canva (para elaboração de apresentações profissionais voltadas ao cliente).
+* **Versionamento de Código:** Competência aplicada na configuração arquitetural do GitHub, estabelecendo padrões seguros de colaboração para que múltiplos desenvolvedores atuassem simultaneamente sem comprometer o sistema.
 
-- Organização de Tarefas: Essencial para a gestão do tempo e priorização de demandas. Esta habilidade refletiu-se diretamente na capacidade de planejar estrategicamente as entregas de cada Sprint para cumprir os rigorosos prazos acadêmicos do projeto.
-
-### Hard Skills (Competências Técnicas)
-Compreendem os conhecimentos técnicos, tangíveis e específicos, geralmente adquiridos por meio de estudo, treinamento e manuseio de ferramentas práticas.
-
-- Ferramentas de Organização de Projetos: O domínio técnico dessas ferramentas materializou-se na operação avançada do Notion. A aplicação dessa habilidade permitiu a tradução de fluxos de trabalho teóricos em quadros Kanban funcionais e na documentação estruturada do projeto.
-
-- Versionamento e Estruturação de Repositórios: Esta competência técnica foi aplicada diretamente na configuração do GitHub. O conhecimento em Git permitiu estabelecer padrões seguros de colaboração, garantindo que múltiplos desenvolvedores pudessem trabalhar simultaneamente no código sem comprometer a integridade do sistema.
+</details>
