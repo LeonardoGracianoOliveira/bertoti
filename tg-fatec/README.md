@@ -73,15 +73,48 @@ O sistema oferece funcionalidades abrangentes, incluindo: rastreamento de custos
 - Slack: Empregado como canal oficial de comunicação da equipe, viabilizando a troca de mensagens rápidas, integração de notificações e alinhamento do fluxo de trabalho.
 - Discord: Utilizado para reuniões síncronas de alinhamento, chamadas de voz e sessões de programação em par (pair programming).
 
-<details>
-<summary><b>Contribuições Pessoais</b></summary>
+## Contribuições Pessoais
 
 Durante o ciclo de desenvolvimento deste projeto, assumi responsabilidades voltadas à gestão ágil do fluxo de trabalho e à governança técnica, garantindo a integração eficiente da equipe e a qualidade das entregas. Minhas principais atividades incluíram:
 
-- **Comunicação e Coordenação de Equipe (Discord):** Utilizando o Discord como canal oficial, conduzi reuniões periódicas de alinhamento. Nessas interações, realizei o acompanhamento do desenvolvimento, mapeando as tarefas concluídas e as pendentes. Atuei ativamente na coordenação do time, direcionando o foco dos desenvolvedores para as demandas de maior prioridade e garantindo o cumprimento das metas estabelecidas para cada entrega.
-- **Planejamento e Detalhamento de Tarefas (Notion):** Fui responsável por estruturar e gerenciar o fluxo de trabalho através do Notion. Desmembrei e cataloguei todas as tarefas do projeto, elaborando descrições minuciosas para cada uma. Esse detalhamento incluiu a definição clara do objetivo da tarefa, os requisitos do que precisava ser feito e as diretrizes técnicas de como executá-la, eliminando ambiguidades para a equipe de desenvolvimento.
-- **Apresentação de Resultados ao Cliente (Canva):** Utilizando o Canva, desenvolvi materiais visuais e apresentações (slides) direcionadas às cerimônias de Sprint Review. Esse material foi essencial para traduzir o progresso técnico do software em demonstrações claras e profissionais das funcionalidades concluídas, facilitando a validação e o entendimento por parte do cliente.
-- **Governança do Repositório (GitHub):** Liderei a estruturação do repositório do projeto, definindo a arquitetura de pastas (separando os ambientes) e estabelecendo boas práticas de versionamento para garantir a integridade do código e evitar conflitos durante a integração contínua.
+**Coordenação de Equipe e Ritos Ágeis (Discord)** - Liderança na facilitação da comunicação e no acompanhamento das metas do projeto utilizando o Discord como canal oficial.
+
+<details>
+<summary><b>Ver Detalhamento</b></summary>
+
+O papel de Scrum Master exigiu a orquestração das cerimônias ágeis e o alinhamento contínuo da equipe de desenvolvimento. A utilização do Discord como ferramenta de comunicação síncrona permitiu a realização de reuniões de acompanhamento periódicas. Nestas sessões, foi possível mapear o progresso das atividades, identificar possíveis gargalos operacionais e redirecionar os esforços da equipe para as demandas de maior criticidade. Essa prática não apenas garantiu o cumprimento do cronograma acadêmico estipulado, mas também consolidou habilidades comportamentais (*Soft Skills*) fundamentais, notadamente a liderança facilitadora e a comunicação assertiva na resolução de problemas e alinhamento de expectativas.
+
+</details>
+
+
+**Gestão de Fluxo de Trabalho e Requisitos (Notion)** - Estruturação do fluxo de desenvolvimento e detalhamento técnico das tarefas por meio da plataforma Notion.
+
+<details>
+<summary><b>Ver Detalhamento</b></summary>
+
+A governança das atividades do projeto foi centralizada no Notion, onde implementei quadros visuais de trabalho baseados na metodologia *Kanban*. O trabalho consistiu em desmembrar os requisitos macro do sistema em tarefas menores e executáveis, elaborando descrições minuciosas que contemplavam o objetivo da funcionalidade, os critérios de aceitação e as diretrizes técnicas de implementação. Este nível de detalhamento mitigou ambiguidades no entendimento da equipe, otimizando o tempo de desenvolvimento. Essa atividade desenvolveu fortemente a competência técnica (*Hard Skill*) em ferramentas de gestão ágil de projetos e a capacidade analítica para a organização sistêmica de tarefas.
+
+</details>
+
+
+**Comunicação Visual e Validação com Stakeholders (Canva)** - Elaboração de apresentações e materiais visuais utilizando o Canva para as cerimônias de validação do produto.
+
+<details>
+<summary><b>Ver Detalhamento</b></summary>
+
+Para assegurar a transparência e a validação contínua do produto junto ao cliente, fui responsável por traduzir o progresso técnico do software em demonstrações visuais compreensíveis e profissionais. Utilizando o Canva, estruturei apresentações direcionadas às cerimônias de *Sprint Review*, facilitando a demonstração das funcionalidades entregues em cada ciclo. Essa frente de atuação foi crucial para a aprovação das etapas do projeto, aprimorando a capacidade de síntese e a habilidade de comunicação voltada para o cliente, conectando o desenvolvimento técnico ao valor prático de negócio.
+
+</details>
+
+
+**Governança de Código e Versionamento (GitHub)** - Definição da arquitetura do repositório no GitHub e estabelecimento de boas práticas de versionamento colaborativo.
+
+<details>
+<summary><b>Ver Detalhamento</b></summary>
+
+No âmbito da engenharia de software, a integridade do código-fonte é primordial. Atuei na configuração arquitetural do repositório do projeto no GitHub, estabelecendo a separação lógica e estrutural entre os ambientes de *frontend* e *backend*. Adicionalmente, defini diretrizes de versionamento seguro e padronização para evitar conflitos durante o processo de integração do código por múltiplos desenvolvedores simultaneamente. A condução desta atividade consolidou competências técnicas (*Hard Skills*) essenciais em governança de código e gestão de repositórios, garantindo a rastreabilidade, a segurança e a escalabilidade do sistema.
+
+</details>
 
 ### Soft Skills e Hard Skills Desenvolvidas
 
