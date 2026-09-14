@@ -96,7 +96,12 @@ A governança das atividades do projeto foi centralizada no Notion, onde impleme
 
 </details>
 
-
+<p align="center">
+  <img src="img do TG/DetalhamentoDeTarefas.png" alt="Descrição da imagem" width="600px">
+</p>
+<p align="center">
+  <img src="img do TG/Kaban.png" alt="Descrição da imagem" width="600px">
+</p>
 **Comunicação Visual e Validação com Stakeholders (Canva)** - Elaboração de apresentações e materiais visuais utilizando o Canva para as cerimônias de validação do produto.
 
 <details>
@@ -118,18 +123,16 @@ No âmbito da engenharia de software, a integridade do código-fonte é primordi
 
 ### Soft Skills e Hard Skills Desenvolvidas
 
-A execução das atividades descritas exigiu a aplicação prática e proporcionou o aprimoramento de diversas competências:
+As competências comportamentais e técnicas listadas abaixo foram desenvolvidas e comprovadas por meio das seguintes ações práticas durante a execução do projeto:
 
 **Soft Skills (Competências Comportamentais)**
-Referem-se às habilidades interpessoais e de autogestão, determinando a forma como interajo, resolvo problemas e conduzo a equipe. 
 
-- **Liderança e Comunicação:** Exercitadas diariamente na condução das reuniões via Discord, onde foi essencial alinhar expectativas, focar a equipe nas prioridades corretas e apresentar os resultados de forma clara para o cliente durante as Sprint Reviews.
-- **Organização de Tarefas:** Habilidade crucial para desmembrar problemas complexos em atividades menores e executáveis, garantindo que o escopo do projeto fluísse de maneira ordenada e dentro dos prazos acadêmicos.
+- **Liderança e Comunicação:** Comprovadas por meio da condução das reuniões de alinhamento e cerimônias ágeis no Discord. Atuei diretamente na mediação das necessidades do projeto, garantindo que todos os desenvolvedores compreendessem os requisitos, focassem nas demandas de maior prioridade e tivessem seus impedimentos técnicos resolvidos rapidamente. Além disso, essa habilidade foi evidenciada na comunicação clara dos resultados aos *stakeholders* durante as *Sprint Reviews*.
+- **Organização e Gestão do Tempo:** Evidenciada pela responsabilidade de manter o fluxo de desenvolvimento contínuo e sem atrasos. Essa competência foi aplicada na prática ao desmembrar problemas complexos em atividades menores e executáveis, priorizando as tarefas no *backlog* para garantir que o escopo do projeto fosse entregue rigorosamente dentro dos prazos do cronograma acadêmico.
 
 **Hard Skills (Competências Técnicas)**
-Compreendem os conhecimentos técnicos e tangíveis adquiridos por meio do manuseio de metodologias e ferramentas práticas.
 
-- **Ferramentas de Gestão e Design:** O domínio prático materializou-se na operação do Notion (para construção e documentação do Kanban e detalhamento de requisitos) e do Canva (para elaboração de apresentações profissionais voltadas ao cliente).
-- **Versionamento de Código:** Competência aplicada na configuração arquitetural do GitHub, estabelecendo padrões seguros de colaboração para que múltiplos desenvolvedores atuassem simultaneamente sem comprometer o sistema.
+- **Ferramentas de Organização e Gestão (Notion e Canva):** Demonstrada pela implementação e configuração integral do ambiente de gestão do projeto no Notion. Isso incluiu a criação de quadros *Kanban*, a elaboração de documentações técnicas e a redação de critérios de aceitação para as tarefas. Complementarmente, a habilidade em design e estruturação de apresentações foi aplicada no Canva, traduzindo o progresso do *software* em materiais visuais profissionais para a validação do cliente.
+- **Versionamento e Estrutura de Repositórios (GitHub):** Comprovada pela liderança na governança do código-fonte. A competência foi exercida na prática ao estruturar a arquitetura inicial do repositório, definindo a separação estrita entre os diretórios de *frontend* e *backend*. Adicionalmente, estabeleci o padrão de ramificações (*branches*) e *commits*, garantindo um fluxo de integração contínua seguro e livre de conflitos para a equipe de desenvolvimento.
 
 </details>
