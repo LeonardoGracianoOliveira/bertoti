@@ -82,19 +82,20 @@ Durante o ciclo de desenvolvimento deste projeto, assumi responsabilidades volta
 <details>
 <summary><b>Ver Detalhamento</b></summary>
 
-O papel de Scrum Master exigiu a orquestração das cerimônias ágeis e o alinhamento contínuo da equipe de desenvolvimento. A utilização do Discord como ferramenta de comunicação síncrona permitiu a realização de reuniões de acompanhamento periódicas. Nestas sessões, foi possível mapear o progresso das atividades, identificar possíveis gargalos operacionais e redirecionar os esforços da equipe para as demandas de maior criticidade. Essa prática não apenas garantiu o cumprimento do cronograma acadêmico estipulado, mas também consolidou habilidades comportamentais (*Soft Skills*) fundamentais, notadamente a liderança facilitadora e a comunicação assertiva na resolução de problemas e alinhamento de expectativas.
+O papel de Scrum Master exigiu a orquestração das cerimônias ágeis e o alinhamento contínuo da equipe de desenvolvimento. A utilização do Discord como ferramenta de comunicação síncrona permitiu a realização de reuniões de acompanhamento periódicas. Durante as *Daily Scrums*, atuei proativamente na identificação e mitigação de impedimentos técnicos. Quando um desenvolvedor enfrentava bloqueios, facilitei a resolução por meio da redistribuição tática de tarefas ou promovendo sessões de *pair programming* para destravar o fluxo de trabalho da equipe. Além do acompanhamento diário, conduzi as dinâmicas de *Sprint Retrospective*, promovendo a cultura de melhoria contínua ao levantar pontos fortes e estipular planos de ação corretivos para os próximos ciclos. Essa prática não apenas garantiu o cumprimento do cronograma acadêmico estipulado, mas também consolidou habilidades comportamentais (Soft Skills) fundamentais, notadamente a liderança facilitadora e a comunicação assertiva na resolução de problemas.
+
+<p align="center">
+  <img src="img do TG/DiscordTG.png" alt="Descrição da imagem" width="600px">
+</p>
 
 </details>
-
 
 **Gestão de Fluxo de Trabalho e Requisitos (Notion)** - Estruturação do fluxo de desenvolvimento e detalhamento técnico das tarefas por meio da plataforma Notion.
 
 <details>
 <summary><b>Ver Detalhamento</b></summary>
 
-A governança das atividades do projeto foi centralizada no Notion, onde implementei quadros visuais de trabalho baseados na metodologia *Kanban*. O trabalho consistiu em desmembrar os requisitos macro do sistema em tarefas menores e executáveis, elaborando descrições minuciosas que contemplavam o objetivo da funcionalidade, os critérios de aceitação e as diretrizes técnicas de implementação. Este nível de detalhamento mitigou ambiguidades no entendimento da equipe, otimizando o tempo de desenvolvimento. Essa atividade desenvolveu fortemente a competência técnica (*Hard Skill*) em ferramentas de gestão ágil de projetos e a capacidade analítica para a organização sistêmica de tarefas.
-
-</details>
+A governança das atividades do projeto foi centralizada no Notion, onde implementei quadros visuais de trabalho baseados na metodologia Kanban. O trabalho consistiu em desmembrar os requisitos macro do sistema em tarefas menores e executáveis. Para garantir a qualidade das entregas, institui rigorosos critérios de controle: uma tarefa só era autorizada para início se cumprisse o *Definition of Ready* (DoR) — contendo descrições minuciosas, o objetivo da funcionalidade e as diretrizes técnicas —, e só era considerada finalizada após atender ao *Definition of Done* (DoD), que exigia testes e aprovação prévia. Adicionalmente, utilizei a ferramenta para monitorar métricas ágeis da equipe, como a taxa de entrega (*velocity*), permitindo planejamentos de *Sprint* realistas e embasados em dados concretos. Este nível de detalhamento mitigou ambiguidades, otimizando o tempo de desenvolvimento e evidenciando a competência técnica (Hard Skill) na organização sistêmica e em ferramentas de gestão ágil.
 
 <p align="center">
   <img src="img do TG/DetalhamentoDeTarefas.png" alt="Descrição da imagem" width="600px">
@@ -102,22 +103,19 @@ A governança das atividades do projeto foi centralizada no Notion, onde impleme
 <p align="center">
   <img src="img do TG/Kaban.png" alt="Descrição da imagem" width="600px">
 </p>
-**Comunicação Visual e Validação com Stakeholders (Canva)** - Elaboração de apresentações e materiais visuais utilizando o Canva para as cerimônias de validação do produto.
-
-<details>
-<summary><b>Ver Detalhamento</b></summary>
-
-Para assegurar a transparência e a validação contínua do produto junto ao cliente, fui responsável por traduzir o progresso técnico do software em demonstrações visuais compreensíveis e profissionais. Utilizando o Canva, estruturei apresentações direcionadas às cerimônias de *Sprint Review*, facilitando a demonstração das funcionalidades entregues em cada ciclo. Essa frente de atuação foi crucial para a aprovação das etapas do projeto, aprimorando a capacidade de síntese e a habilidade de comunicação voltada para o cliente, conectando o desenvolvimento técnico ao valor prático de negócio.
 
 </details>
-
 
 **Governança de Código e Versionamento (GitHub)** - Definição da arquitetura do repositório no GitHub e estabelecimento de boas práticas de versionamento colaborativo.
 
 <details>
 <summary><b>Ver Detalhamento</b></summary>
 
-No âmbito da engenharia de software, a integridade do código-fonte é primordial. Atuei na configuração arquitetural do repositório do projeto no GitHub, estabelecendo a separação lógica e estrutural entre os ambientes de *frontend* e *backend*. Adicionalmente, defini diretrizes de versionamento seguro e padronização para evitar conflitos durante o processo de integração do código por múltiplos desenvolvedores simultaneamente. A condução desta atividade consolidou competências técnicas (*Hard Skills*) essenciais em governança de código e gestão de repositórios, garantindo a rastreabilidade, a segurança e a escalabilidade do sistema.
+No âmbito da engenharia de software, a integridade do código-fonte é primordial. Atuei na configuração arquitetural do repositório do projeto no GitHub, estabelecendo a separação lógica e estrutural entre os ambientes de *frontend* e *backend*. Para assegurar a estabilidade do sistema, implementei uma estratégia de ramificação (*Branching Strategy*) baseada no uso de *Feature Branches*, isolando o desenvolvimento de novas funcionalidades da *branch* principal (`main`). Estabeleci o bloqueio de envios diretos para a `main`, tornando obrigatória a abertura de *Pull Requests* (PRs) e a revisão de código por pares (*Code Review*) antes de qualquer mesclagem (*merge*). Além disso, padronizei o histórico de versionamento orientando a equipe ao uso de *Conventional Commits* (ex.: `feat:`, `fix:`), o que gerou um log de alterações limpo e auditável. A condução destas atividades consolidou competências técnicas (Hard Skills) avançadas em governança de código, garantindo rastreabilidade, segurança e escalabilidade.
+
+<p align="center">
+  <img src="img do TG/GitHubTG.png" alt="Descrição da imagem" width="600px">
+</p>
 
 </details>
 
@@ -125,14 +123,18 @@ No âmbito da engenharia de software, a integridade do código-fonte é primordi
 
 As competências comportamentais e técnicas listadas abaixo foram desenvolvidas e comprovadas por meio das seguintes ações práticas durante a execução do projeto:
 
+### Soft Skills e Hard Skills Desenvolvidas
+
+As competências comportamentais e técnicas listadas abaixo foram desenvolvidas, consolidadas e comprovadas por meio das seguintes ações práticas durante a execução do projeto:
+
 **Soft Skills (Competências Comportamentais)**
 
-- **Liderança e Comunicação:** Comprovadas por meio da condução das reuniões de alinhamento e cerimônias ágeis no Discord. Atuei diretamente na mediação das necessidades do projeto, garantindo que todos os desenvolvedores compreendessem os requisitos, focassem nas demandas de maior prioridade e tivessem seus impedimentos técnicos resolvidos rapidamente. Além disso, essa habilidade foi evidenciada na comunicação clara dos resultados aos *stakeholders* durante as *Sprint Reviews*.
-- **Organização e Gestão do Tempo:** Evidenciada pela responsabilidade de manter o fluxo de desenvolvimento contínuo e sem atrasos. Essa competência foi aplicada na prática ao desmembrar problemas complexos em atividades menores e executáveis, priorizando as tarefas no *backlog* para garantir que o escopo do projeto fosse entregue rigorosamente dentro dos prazos do cronograma acadêmico.
+- **Liderança Facilitadora e Comunicação Assertiva:** Comprovadas na orquestração dos ritos ágeis via Discord. A liderança não se limitou à cobrança de prazos, mas focou na remoção de impedimentos técnicos e na promoção de um ambiente colaborativo (incentivando, por exemplo, o *pair programming*). A comunicação assertiva foi evidenciada na capacidade de mediar conflitos internos durante as *Sprint Retrospectives* e na habilidade de traduzir o progresso técnico complexo em valor de negócio compreensível para o cliente durante as apresentações de *Sprint Review*.
+- **Gestão do Tempo, Organização e Adaptabilidade:** Evidenciadas pela responsabilidade de manter a cadência de entregas (*velocity*) da equipe constante. Essa competência exigiu um alto nível de organização para priorizar o *Product Backlog*, desmembrar problemas complexos em atividades executáveis e garantir que o escopo de cada ciclo fosse realista. A adaptabilidade foi crucial para recalcular rotas, redistribuir tarefas diante de bloqueios inesperados e assegurar a entrega dentro do rigoroso cronograma acadêmico.
 
 **Hard Skills (Competências Técnicas)**
 
-- **Ferramentas de Organização e Gestão (Notion e Canva):** Demonstrada pela implementação e configuração integral do ambiente de gestão do projeto no Notion. Isso incluiu a criação de quadros *Kanban*, a elaboração de documentações técnicas e a redação de critérios de aceitação para as tarefas. Complementarmente, a habilidade em design e estruturação de apresentações foi aplicada no Canva, traduzindo o progresso do *software* em materiais visuais profissionais para a validação do cliente.
-- **Versionamento e Estrutura de Repositórios (GitHub):** Comprovada pela liderança na governança do código-fonte. A competência foi exercida na prática ao estruturar a arquitetura inicial do repositório, definindo a separação estrita entre os diretórios de *frontend* e *backend*. Adicionalmente, estabeleci o padrão de ramificações (*branches*) e *commits*, garantindo um fluxo de integração contínua seguro e livre de conflitos para a equipe de desenvolvimento.
+- **Governança de Ferramentas Ágeis e Gestão Visual (Notion e Canva):** Demonstrada pela engenharia do ambiente de gestão do projeto. A proficiência no Notion foi além da criação de quadros *Kanban*, envolvendo a documentação de arquitetura, a definição formal de critérios de qualidade (*Definition of Ready* e *Definition of Done*) e o rastreamento do fluxo de trabalho. Complementarmente, o domínio de comunicação visual aplicado no Canva permitiu a estruturação de relatórios e apresentações executivas padronizadas para a validação formal das entregas junto aos *stakeholders*.
+- **Versionamento de Código e Arquitetura de Repositórios (GitHub):** Comprovada pela liderança na governança técnica do código-fonte. A competência foi exercida na prática através da estruturação modular do repositório (desacoplamento de *frontend* e *backend*). Demonstrei domínio avançado em Git ao instituir uma *Branching Strategy* baseada em *Feature Branches*, implementar auditoria de código por meio de *Pull Requests* (*Code Review*) e estabelecer o padrão de *Conventional Commits*, garantindo um ecossistema de integração contínua seguro e livre de quebras (*crashes*).
 
 </details>
