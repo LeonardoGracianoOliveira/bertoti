@@ -85,7 +85,7 @@ Durante o ciclo de desenvolvimento deste projeto, assumi responsabilidades volta
 O papel de Scrum Master exigiu a orquestração das cerimônias ágeis e o alinhamento contínuo da equipe de desenvolvimento. A utilização do Discord como ferramenta de comunicação síncrona permitiu a realização de reuniões de acompanhamento periódicas. Durante as *Daily Scrums*, atuei proativamente na identificação e mitigação de impedimentos técnicos. Quando um desenvolvedor enfrentava bloqueios, facilitei a resolução por meio da redistribuição tática de tarefas ou promovendo sessões de *pair programming* para destravar o fluxo de trabalho da equipe. Além do acompanhamento diário, conduzi as dinâmicas de *Sprint Retrospective*, promovendo a cultura de melhoria contínua ao levantar pontos fortes e estipular planos de ação corretivos para os próximos ciclos. Essa prática não apenas garantiu o cumprimento do cronograma acadêmico estipulado, mas também consolidou habilidades comportamentais (Soft Skills) fundamentais, notadamente a liderança facilitadora e a comunicação assertiva na resolução de problemas.
 
 <p align="center">
-  <img src="img do TG/DiscordTG.png" alt="Descrição da imagem" width="600px">
+  <img src="img do TG/DiscordTG.png" alt="Descrição da imagem" width="200px">
 </p>
 
 </details>
