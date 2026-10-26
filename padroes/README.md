@@ -13,7 +13,27 @@ Este documento detalha as minhas contribuições pessoais para o desenvolvimento
 
 ## 🖼️ Interface Desenvolvida
 
-*(Recomenda-se adicionar o arquivo `Captura de tela 2026-10-19 195617.png` na mesma pasta deste arquivo ou no repositório para ilustrar esta seção)*
+# **Chat Vazio**
+<p align="center">
+  <img src="TelasCineMindAi/Chat Vazio.png" alt="Descrição da imagem" width="600px">
+</p>
+
+# **Primeira Conversa**
+<p align="center">
+  <img src="TelasCineMindAi/Primeira Conversa.png" alt="Descrição da imagem" width="600px">
+</p>
+
+# **Chat com Historico**
+<p align="center">
+  <img src="TelasCineMindAi/Chat com Historico.png" alt="Descrição da imagem" width="600px">
+</p>
+
+# **Com duas Conversas**
+<p align="center">
+  <img src="TelasCineMindAi/Com duas Conversas.png" alt="Descrição da imagem" width="600px">
+</p>
+
+<br>
 
 O layout entregue apresenta uma interface moderna com tema escuro, contendo a marca "CINEMIND" no topo esquerdo, um indicador de status ("Agente conectado") no canto superior direito e uma área central limpa focada na conversação com o usuário.
 
